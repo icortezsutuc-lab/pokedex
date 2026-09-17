@@ -13,7 +13,7 @@
       content="Consulta información de Pokémon, descubre sus características y guarda tus Pokémon favoritos en nuestra Pokédex."
     />
 
-    <meta name="author" content="Pokédex" />
+    <meta name="author" content="Pokédex React" />
 
     <link rel="icon" type="image/svg+xml" href="/pokedex/favicon.svg" />
 
@@ -48,11 +48,29 @@
       rel="canonical"
       href="https://icortezsutuc-lab.github.io/pokedex/"
     />
+
+    <!-- Google Analytics 4 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V5RHZMG67W"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+
+      gtag("config", "G-V5RHZMG67W");
+    </script>
   </head>
 
   <body>
     <div id="root"></div>
 
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/pokedex/src/main.jsx"></script>
   </body>
 </html>
