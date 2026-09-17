@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://icortezsutuc-lab.github.io/pokedex/sitemap.xml
